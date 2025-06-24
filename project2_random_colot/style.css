@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    padding: 20px;
+    font-size: 20px;
+}
+.header {
+    background-color: #f8ebeb;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.random-color-generator-container{
+    display: flex;
+    gap: 10px;
+}
+.rgb-color-container,.hex-color-container{
+    min-height: 100vh;
+    flex: 1;
+}
+
+.hex-color-container button{
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #e9e7ee;
+    color: #f01818;
+    border-radius: 10px;
+  
+}
+
+.rgb-color-container{
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+
+}
+.hex-color-container{
+background-color: #21e50f;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+}
+.hex-color-value{
+    font-size: 30px;
+    font-weight: bold;
+    color: #f6f3f3;
+}
+.rgb-color-container{
+    background-color: #3d98ec;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.rgb-color-container div{
+    padding: 20px;
+     font-size: 18px;
+    font-weight: bold;
+    background-color: #2608a1;
+    color: #f2eded;
+    border-radius: 50px;
+}
+
+.rgb-color-container button{
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #e9e7ee;
+    color: #f01818;
+    border-radius: 10px;
+  
+}

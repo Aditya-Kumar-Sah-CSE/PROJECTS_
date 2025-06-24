@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color Generator</title>
+    <!-- go to cdnjs.com/libraries/font-awesome </> copy link - -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+  integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" 
+  referrerpolicy="no-referrer" />
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <header class="header">
+
+    </header>
+    <main class="main">
+       
+            <div class="random-color-generator-container">
+               
+                <div class="hex-color-container">
+                    <p class="hex-color-value">#fff</p>
+                    <button class="hex-btn">Create Hex Color </button>
+                </div>
+                
+                <div class="rgb-color-container">
+                <div>
+                    <label for="red">Red</label>
+                    <input type="range" min="0" max="255" value="100" id="red">
+                </div>
+                <div>
+                    <label for="green">Green</label>
+                    <input type="range" min="0" max="255" value="75" id="green">
+                </div>~
+                <div>
+                     <label for="blue">Blue</label>
+                    <input type="range" min="0" max="255" value="45" id="blue">
+                </div>
+                  <button class="rgb-btn">Create Hex Color </button>
+                   
+                </div>
+            </div>
+        
+    </main>
+    <footer class="footer">
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
