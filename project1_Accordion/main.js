@@ -81,6 +81,7 @@ const data =[
         <div class="accordion_content">
         <p>${dataItem.answer }</p>
         </div>
+         
         
         </div>
         `
