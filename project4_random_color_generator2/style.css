@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    width: 100%;
+    height: 20px;
+    background-color: #ba0d0d;
+}
+main{
+  background-color: rgb(164, 164, 15);
+}
+h1{
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    float: left;
+}
+.box{
+    width: 20%;
+    height: 20px;
+    background: #cd0b0b;
+    margin: 5px;
+}
